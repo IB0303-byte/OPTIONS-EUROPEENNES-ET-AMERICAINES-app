@@ -9,7 +9,7 @@ st.set_page_config(page_title="CRR Binomial Option Pricer", layout="wide")
 st.title("CRR Binomial Option Pricer — Application interactive")
 st.markdown(
     "Cette application calcule et visualise un arbre binomial (Cox-Ross-Rubinstein) pour pricer des options "
-    "européennes et américaines, affiche les deltas de couverture et permet de télécharger les arbres en CSV."
+    "européennes et américaines et affiche les deltas de couverture ."
 )
 
 # ------------------ Sidebar: paramètres ------------------
